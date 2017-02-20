@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F44C5EC41E5B360800C85B52 /* FunctionalIndexPathChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44C5EC31E5B360800C85B52 /* FunctionalIndexPathChanges.swift */; };
 		F4FF1AFF1E583569009E9B26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF1AFE1E583569009E9B26 /* AppDelegate.swift */; };
 		F4FF1B011E583569009E9B26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF1B001E583569009E9B26 /* ViewController.swift */; };
 		F4FF1B041E583569009E9B26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4FF1B021E583569009E9B26 /* Main.storyboard */; };
 		F4FF1B061E583569009E9B26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4FF1B051E583569009E9B26 /* Assets.xcassets */; };
 		F4FF1B091E583569009E9B26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4FF1B071E583569009E9B26 /* LaunchScreen.storyboard */; };
 		F4FF1B141E583569009E9B26 /* IndexChangesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF1B131E583569009E9B26 /* IndexChangesTests.swift */; };
+		F4FF1B1F1E58357D009E9B26 /* IndexPathChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF1B1E1E58357D009E9B26 /* IndexPathChanges.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F44C5EC31E5B360800C85B52 /* FunctionalIndexPathChanges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionalIndexPathChanges.swift; sourceTree = "<group>"; };
 		F4FF1AFB1E583569009E9B26 /* IndexChanges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndexChanges.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4FF1AFE1E583569009E9B26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4FF1B001E583569009E9B26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		F4FF1B0F1E583569009E9B26 /* IndexChangesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndexChangesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4FF1B131E583569009E9B26 /* IndexChangesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexChangesTests.swift; sourceTree = "<group>"; };
 		F4FF1B151E583569009E9B26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4FF1B1E1E58357D009E9B26 /* IndexPathChanges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexPathChanges.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				F4FF1B051E583569009E9B26 /* Assets.xcassets */,
 				F4FF1B071E583569009E9B26 /* LaunchScreen.storyboard */,
 				F4FF1B0A1E583569009E9B26 /* Info.plist */,
+				F4FF1B1E1E58357D009E9B26 /* IndexPathChanges.swift */,
+				F44C5EC31E5B360800C85B52 /* FunctionalIndexPathChanges.swift */,
 			);
 			path = IndexChanges;
 			sourceTree = "<group>";
@@ -201,8 +207,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F44C5EC41E5B360800C85B52 /* FunctionalIndexPathChanges.swift in Sources */,
 				F4FF1B011E583569009E9B26 /* ViewController.swift in Sources */,
 				F4FF1AFF1E583569009E9B26 /* AppDelegate.swift in Sources */,
+				F4FF1B1F1E58357D009E9B26 /* IndexPathChanges.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +420,7 @@
 				F4FF1B1A1E583569009E9B26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4FF1B1B1E583569009E9B26 /* Build configuration list for PBXNativeTarget "IndexChangesTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +429,7 @@
 				F4FF1B1D1E583569009E9B26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
