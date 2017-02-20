@@ -8,18 +8,13 @@ Drop the file IndexPathChanges.swift into your project. Use it like this:
 
 ```swift
 let section = 5
-let changes = IndexPathChanges(from: ["A", "C"],
-                               to: ["A", "B", "C"],
-                               in: section)
+let changes = IndexPathChanges(from: ["A", "C"], to: ["A", "B", "C"], in: section)
 ```
 
 This works for all types that conform to the `Equatable` protocol. For other types, or if you need specific logic for what it means for two elements to be considered the same, you may give it an `equals` function:
 
 ```swift
-    let changes = IndexPathChanges(from: ["a", "b"], 
-                                   to: ["A", "B"], 
-                                   in: section, 
-                                   using: {
+    let changes = IndexPathChanges(from: ["a", "b"], to: ["A", "B"], in: section, using: {
         $0.caseInsensitiveCompare($1) == ComparisonResult.orderedSame
     })
 ```
